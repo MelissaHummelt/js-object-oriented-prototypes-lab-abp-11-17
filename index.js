@@ -34,4 +34,8 @@ function BoardMember(name, homeState, training) {
   BoardMember.prototype.approve = function() {
     return "You can do that!"
   }
+
+  BoardMember.prototype.doCharity = funciton() {
+    return "I like to help people."
+  }
 }
