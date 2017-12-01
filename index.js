@@ -40,6 +40,6 @@ function BoardMember(name, homeState, training) {
   }
 
   BoardMember.prototype.releasePressStatement = function {
-    return 
+    return "You will see great things from Scuber."
   }
 }
